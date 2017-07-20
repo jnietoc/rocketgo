@@ -1,5 +1,4 @@
 <%@ page import="com.rocket.go.rocket.card.Marca" %>
-<%@ page import="com.rocket.go.rocket.card.Categoria" %>
 
 <!DOCTYPE html>
 <html>
