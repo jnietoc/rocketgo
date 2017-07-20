@@ -1,5 +1,3 @@
-<%@ page import="com.rocket.go.rocket.card.Marca" %>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +10,7 @@
         <asset:stylesheet src="modal.css"/>
         <asset:javascript src="application.js"/>
         <asset:javascript src="offcanvas.js"/>
-        <title><g:message code="default.list.label" args="[entityName]" /></title>
+        <title>Marcas Afiliadas</title>
 
     </head>
 

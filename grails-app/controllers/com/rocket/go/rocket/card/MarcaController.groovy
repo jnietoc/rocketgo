@@ -11,8 +11,7 @@ class MarcaController {
 
     @Secured(['IS_AUTHENTICATED_ANONYMOUSLY'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Marca.list(params), model:[marcaCount: Marca.count()]
+
     }
     @Secured(['ROLE_ADMIN', 'ROLE_PROVEEDOR'])
     def show(Marca marcaInstance) {
