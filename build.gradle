@@ -92,6 +92,8 @@ dependencies {
         exclude module: 'xmlbeans'
         exclude module: 'olap4j'
     }
+
+    compile 'com.github.jsimone:webapp-runner:8.5.11.3'
 }
 
 bootRun {
