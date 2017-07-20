@@ -10,7 +10,7 @@ import com.rocket.go.seguridad.*
 class BootStrap {
 
     def init = { servletContext ->
-		User admin = new User(username:'Administrador', password:'secret', enabled:true, nombre: 'Administrador', apellidoPaterno: 'admin', apellidoMaterno: 'admin', calle: 'xxx', colonia: 'xxx', codigoPostal: 'xxxxx', ciudad: 'xxx', email: 'admin@admin.com', celular: '1111111111', tipo: 'Admin').save()
+		/*User admin = new User(username:'Administrador', password:'secret', enabled:true, nombre: 'Administrador', apellidoPaterno: 'admin', apellidoMaterno: 'admin', calle: 'xxx', colonia: 'xxx', codigoPostal: 'xxxxx', ciudad: 'xxx', email: 'admin@admin.com', celular: '1111111111', tipo: 'Admin').save()
         User mokara = new User(username:'Mokara', password:'secret', enabled:true, nombre: 'Mokara', apellidoPaterno: 'admin', apellidoMaterno: 'admin', calle: 'xxx', colonia: 'xxx', codigoPostal: 'xxxxx', ciudad: 'xxx', email: 'mokara@negocio.com', celular: '1111111111', tipo: 'Negocio').save()
         Tarjeta tarjeta = new Tarjeta(noTarjeta: '1234567890123456', negocio: mokara?.id).save()
         User  nai = new User(username:'Nailea', password:'secret', enabled:true, nombre: 'Nailea', apellidoPaterno: 'admin', apellidoMaterno: 'admin', calle: 'xxx', colonia: 'xxx', codigoPostal: 'xxxxx', ciudad: 'xxx', email: 'nailea@cliente.com', celular: '1111111111', tipo: 'Cliente', tarjeta: tarjeta).save()
@@ -27,7 +27,7 @@ class BootStrap {
         UserRole.create(nai, clienteRole)
 
         TipoTransaccion transaccionVenta = new TipoTransaccion(tipo: 'Venta').save()
-        TipoTransaccion transaccionRetiro = new TipoTransaccion(tipo: 'Retiro').save()
+        TipoTransaccion transaccionRetiro = new TipoTransaccion(tipo: 'Retiro').save()*/
     }
     def destroy = {
     }
