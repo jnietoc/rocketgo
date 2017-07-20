@@ -26,8 +26,8 @@ class BootStrap {
         UserRole.create(iberico, negocioPlusRole)
         UserRole.create(nai, clienteRole)*/
 
-        TipoTransaccion transaccionVenta = new TipoTransaccion(tipo: 'Venta').save()
-        TipoTransaccion transaccionRetiro = new TipoTransaccion(tipo: 'Retiro').save()
+        /*TipoTransaccion transaccionVenta = new TipoTransaccion(tipo: 'Venta').save()
+        TipoTransaccion transaccionRetiro = new TipoTransaccion(tipo: 'Retiro').save()*/
     }
     def destroy = {
     }
