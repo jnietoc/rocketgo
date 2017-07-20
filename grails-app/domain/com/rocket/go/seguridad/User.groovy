@@ -30,7 +30,7 @@ class User implements Serializable {
 	String email
 	String celular
 	String tipo
-	Tarjeta tarjeta
+	//Tarjeta tarjeta
 
 	Set<Role> getAuthorities() {
 		(UserRole.findAllByUser(this) as List<UserRole>)*.role as Set<Role>
@@ -51,7 +51,7 @@ class User implements Serializable {
 		ciudad blank: false, maxSize: 20
 		email blank: false, unique:true, email: true
 		celular blank: false, maxSize: 10
-		tarjeta nullable: true
+		//tarjeta nullable: true
 	}
 
 	static mapping = {

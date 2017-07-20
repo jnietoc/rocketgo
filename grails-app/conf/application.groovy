@@ -1,7 +1,18 @@
-environments {
-	production {
+/*environments {
+	development {
 		dataSource {
 			dbCreate = "create-drop"
+			driverClassName = "org.postgresql.Driver"
+			dialect = org.hibernate.dialect.PostgreSQLDialect
+			//uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")
+			url = "jdbc:postgresql://localhost:5432/rocketgo"
+			username = "postgres"
+			password = "puertaabierta"
+		}
+	}
+	production {
+		dataSource {
+			dbCreate = "update"
 			driverClassName = "org.postgresql.Driver"
 			dialect = org.hibernate.dialect.PostgreSQLDialect
 			uri = new URI(System.env.DATABASE_URL?:"postgres://test:test@localhost/test")
@@ -10,7 +21,7 @@ environments {
 			password = uri.userInfo.split(":")[1]
 		}
 	}
-}
+}*/
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.rocket.go.seguridad.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.rocket.go.seguridad.UserRole'

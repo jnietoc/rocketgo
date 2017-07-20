@@ -10,7 +10,6 @@ class Marca {
     String pinterest
     String email
     String horarioAtencion
-    Categoria categoria
     Integer porcentajeCashBack
     Integer puntuacion
     String urlImagenes
@@ -29,7 +28,6 @@ class Marca {
         porcentajeCashBack blank:false
         puntuacion blank:false
         urlImagenes blank: false
-        categoria blank: false, nullable:false
     }
 
     static mapping = {
