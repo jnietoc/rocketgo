@@ -22,7 +22,7 @@
 }
 @media screen and (min-width: 475px) {
     .divLogin{
-        width: 100%;
+        width: 80%;
     }
     .imagenLogin{
         height: 12%;
@@ -31,13 +31,23 @@
         border-radius: 6pt;
     }
     .form-horizontal .navbar-form .form-control{
-        widht:100%
+        min-widht:80%
+    }
+    .bannerInicio{
+        background-image: url('../images/rocket3.png');
+        background:cover;
+        height:100%;
+        background-repeat: no-repeat;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+
     }
 
 }
 
 .divLogin{
-    width: 25%;
+    width: 100%;
 
 }
 .imagenLogin{

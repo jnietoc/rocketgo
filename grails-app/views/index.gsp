@@ -9,7 +9,7 @@
 <body>
     <div class="bannerInicio">
         <div class="container" >
-            <div class="nav navbar-left divLogin">
+            <div class="nav navbar-left">
                 <form class="form-horizontal" role="form" action="${postUrl ?: '/login/authenticate'}" method='POST' id='loginForm' autocomplete="off">
                     <br/>
 
@@ -46,7 +46,7 @@
                 </form>
             </div>
 
-            <div class="nav navbar-nav navbar-right" style="width: 40%; height: 200%; align-items: center;" >
+            <div class="navbar-right" style="width: 40%; height: 200%; align-items: center;" >
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -120,7 +120,7 @@
                 <div class="thumbnail" style="border: none">
                     <p><a onclick="document.getElementById('realiza').scrollIntoView(true)"><asset:image  src="1.png" style="width: 55%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Realiza </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center ">Compras En Negocios Afiliados</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Realiza </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center ">compras en negocios afiliados</p>
                     </div>
                 </div>
 
@@ -129,7 +129,7 @@
                 <div class="thumbnail" style="border: none">
                     <p><a onclick="document.getElementById('acumula').scrollIntoView(true)" ><asset:image  src="2.png" style="width: 55%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Acumula </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">Dinero Electrónico</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Acumula </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">dinero electrónico</p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <div class="thumbnail" style="border: none">
                     <p><a onclick="document.getElementById('canjea').scrollIntoView(true)"><asset:image  src="3.png" style="width: 55%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Canjéalo </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">Por Dinero En Efectivo</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Canjéalo </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">por dinero en efectivo</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                 <div class="thumbnail" style="border: none">
                     <p><a onclick="document.getElementById('utiliza').scrollIntoView(true)"><asset:image  src="4.png" style="width: 55%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Utilízalo </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">Para Realizar Más Compras</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Utilízalo </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">para realizar más compras</p>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
 
     <div class="row featurette"  >
         <div class="col-md-7">
-            <h2 class="featurette-heading">Realiza <span class="text-muted">Compras En Negocios Afiliados</span></h2>
+            <h2 class="featurette-heading">REALIZA <span class="text-muted">compras en negocios afiliados</span></h2>
             <p class="lead">Disfruta de los beneficios que te ofrecen las marcas afiliadas a RocketCard y descubre que entre más compras más ganas.</p>
         </div>
         <div class="col-md-5">
@@ -167,7 +167,7 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">ACUMULA <span class="text-muted">Dinero Electrónico</span></h2>
+            <h2 class="featurette-heading">ACUMULA <span class="text-muted">dinero electrónico</span></h2>
             <p class="lead">Por cada compra que realices te regresan dinero electrónico que se acumulará en tu cuenta de socio RocketCard y lo puedes utilizar para realizar más compras.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
@@ -179,7 +179,7 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Canjéalo <span class="text-muted">Por Dinero En Efectivo</span></h2>
+            <h2 class="featurette-heading">CANJÉALO <span class="text-muted">por dinero en efectivo</span></h2>
             <p class="lead">Busca a las marcas plus y en estos establecimientos puedes canjear tu dinero electrónico por dinero en efectivo.</p>
         </div>
         <div class="col-md-5">
@@ -190,7 +190,7 @@
     <hr id="utiliza" class="featurette-divider" style="padding: 5%">
     <div class="row featurette">
         <div  class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Utilízalo <span class="text-muted">Para Realizar Más Compras</span></h2>
+            <h2 class="featurette-heading">UTILÍZALO <span class="text-muted">para realizar más compras</span></h2>
             <p class="lead">Utiliza tu dinero como lo prefieras y recuerda comprar en las marcas afiliadas para seguir ganando.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
@@ -200,45 +200,43 @@
     <hr class="featurette-divider">
 
 
-
+    <button class="glyphicon-level-up right" href="#" type="button"style="float: right"></button>
     <br/>
     <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: xx-large ">DESCUENTOS, PROMOCIONES Y DINERO ELECTRÓNICO</p>
 
-
-
-
+    <button class="glyphicon-level-up right" href="#" type="button"style="float: right"></button>
     <div class="navbar nav-justified">
         <div class="row">
             <div class="col-sm-4 col-md-3">
                 <div class="thumbnail" style="border: none">
-                    <p><a id="recibe-option" href="#" title="DISFRUTA DE LOS BENEFICIOS QUE TE OFRECEN LAS MARCAS AFILIADAS A ROCKET CARD Y DESCUBRE QUE ENTRE MÁS COMPRAS MÁS GANAS."><asset:image  src="PROMO.png" style="width: 65%"/></a></p>
+                    <p><a id="recibe-option" ><asset:image  src="PROMO.png" style="width: 65%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Recibe</p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center ">Promociones Exclusivas</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Recibe</p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center ">promociones exclusivas</p>
                     </div>
                 </div>
 
             </div>
             <div class="col-sm-4 col-md-3">
                 <div class="thumbnail" style="border: none">
-                    <p><a id="show1-option" href="#" title="POR CADA COMPRA QUE REALICES TE REGRESAN DINERO ELECTRÓNICO QUE SE ACUMULARA EN TU CUENTA DE SOCIO ROCKET CARD Y LO PUEDES UTILIZAR PARA REALIZAR MÁS COMPRAS."><asset:image  src="PREMIOS.png " style="width: 65%"/></a></p>
+                    <p><a id="show1-option" ><asset:image  src="PREMIOS.png " style="width: 65%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Participa </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">para Obtener Premios</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Participa </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">para obtener premios.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-3">
                 <div class="thumbnail" style="border: none">
-                    <p><a id="show2-option" href="#" title="BUSCA A LAS MARCAS PLUS Y EN ESTOS ESTABLECIMIENTOS PUEDES CANJEAR TU DINERO ELECTRÓNICO POR DINERO EN EFECTIVO."><asset:image  src="COMPRAS.png" style="width: 65%"/></a></p>
+                    <p><a id="show2-option"  ><asset:image  src="COMPRAS.png" style="width: 65%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Ahora </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">tus Compras Cotidianas te Hacen Ganar</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Ahorra </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">tus compras cotidianas te hacen ganar.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-3">
                 <div class="thumbnail" style="border: none">
-                    <p><a id="utilizalo-icon" href="#" title="UTILIZA TU DINERO COMO LO PREFIERAS Y RECUERDA COMPRAR EN LAS MARCAS AFILIADAS PARA SEGUIR GANANDO."><asset:image  src="AHORRO.png" style="width: 65%"/></a></p>
+                    <p><a id="utilizalo-icon"  ><asset:image  src="AHORRO.png" style="width: 65%"/></a></p>
                     <div class="caption">
-                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Utilíza </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">tu RocketCard como cuenta de ahorrro</p>
+                        <p align="center" style="top: 10%; font-family:'Segoe UI Black';font-size: x-large;color: #bf0913 ">Utilíza </p><p style="top: 10%; font-family:'Segoe UI Black';font-size: large; text-align: center">tu RocketCard como cuenta de ahorrro.</p>
                     </div>
                 </div>
             </div>

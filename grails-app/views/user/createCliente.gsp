@@ -7,7 +7,7 @@
     </head>
     <body>
         <div id="create-user" class="content scaffold-create" role="main">
-            <h1><g:message code="rocket.go.registro.cliente" args="[entityName]" /></h1>
+            <h1 style="margin-top: 10%"><g:message code="rocket.go.registro.cliente" args="[entityName]" /></h1>
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
@@ -200,9 +200,10 @@
                         </div>
                     </dl>
 
-                    <div>
+                    <div align="center">
                         <g:submitButton name="create" class="btn btn-lg btn-danger" value="${message(code: 'default.button.create.label', default: 'Guardar')}" />
                     </div>
+
                 </div>
             </g:form>
         </div>

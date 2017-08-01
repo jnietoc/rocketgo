@@ -2973,6 +2973,7 @@ select[multiple].input-lg {
   padding-top: 7px;
   margin-top: 0;
   margin-bottom: 0;
+  width:auto ;
 }
 .form-horizontal .radio,
 .form-horizontal .checkbox {
@@ -2987,6 +2988,7 @@ select[multiple].input-lg {
     padding-top: 7px;
     margin-bottom: 0;
     text-align: right;
+    width: 100%;
   }
 }
 .form-horizontal .has-feedback .form-control-feedback {
@@ -4387,7 +4389,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
-    width: 85%;
+    width: 70%;
     vertical-align: middle;
 
   }

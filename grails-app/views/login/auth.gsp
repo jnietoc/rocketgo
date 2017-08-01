@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta name="layout" content="mainLogin"/>
+    <meta name="layout" content="main" />
     <title><g:message code="rocket.go.appName"/></title>
     <style type='text/css' media='screen'>
     #login {
@@ -87,10 +87,11 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container" style="margin-top: 10%">
 
-    <form class="form-signin" action="${postUrl ?: '/login/authenticate'}" method='POST' id='loginForm' autocomplete="off">
-        <h2 class=" "><g:message code="Login"/></h2>
+    <form  class="form-signin" action="${postUrl ?: '/login/authenticate'}" method='POST' id='loginForm' autocomplete="off">
+        <h2 class=" " align="center"><g:message code="LOGIN"/></h2>
+        <br/>
         <g:if test='${flash.message}'>
             <div class='alert alert-danger' role="alert">${flash.message}</div>
         </g:if>

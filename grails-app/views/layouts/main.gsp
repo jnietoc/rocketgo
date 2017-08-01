@@ -110,11 +110,11 @@
 
 
                             <sec:ifNotLoggedIn>
-                                <li><a href="#" style="font-size: larger;">Registrate Gratis</a></li>
+                                <li><g:link controller="user" action="createCliente" style="font-size: larger;">Registrate Gratis</g:link></li>
                             </sec:ifNotLoggedIn>
 
                             <sec:ifNotLoggedIn>
-                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: larger;">Ingresa </a></li>
+                                <li><g:link controller="login" action="auth" style="font-size: larger;">Ingresa</g:link></li>
                             </sec:ifNotLoggedIn>
 
                             <sec:ifLoggedIn>
@@ -141,11 +141,11 @@
 
 <div class="nav navbar-fixed-bottom" style="background-color: #080808; color: whitesmoke;">
        <footer style="align-items: center">
-           Siguenos:   Facebook<g:link url="http://www.facebook.com/Proyecta%Mas"><asset:image src="facebook.ico" style="height: 2.5%; width: 2.5%; background-color: transparent;" /> </g:link>
+           Siguenos:   Facebook<g:link url="http://www.facebook.com/Proyecta%Mas"><asset:image src="facebook.ico" style="min-height: 3%; width:3%;min-width:3%; background-color: transparent;" /> </g:link>
 
-           Instagram<g:link url="https://www.instagram.com/proyectamasmn"><asset:image src="instagram.png" style="height: 3%; width: 3%; background-color: transparent;" /></g:link>
+           Instagram<g:link url="https://www.instagram.com/proyectamasmn"><asset:image src="instagram.png" style="min-height: 3%; min-width: 3%; width: 3%; background-color: transparent;" /></g:link>
 
-           E-Mail<g:link url="https://www.instagram.com/proyectamasmn"> <asset:image src="e.mail.png" style="height: 2%; width: 2%; background-color: transparent;" /></g:link>
+           E-Mail<g:link url="https://www.instagram.com/proyectamasmn"> <asset:image src="e.mail.png" style="min-height: 3%; min-width: 3%; width:3% ; background-color: transparent;" /></g:link>
 
 
        </footer>

@@ -56,6 +56,11 @@ body {
     z-index: 10;
 
 }
+@media (min-width: 768px) {
+    .item.active .carousel-inner .active{
+        min-width:90%;
+    }
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {

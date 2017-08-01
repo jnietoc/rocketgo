@@ -22,7 +22,7 @@
         <span class="caret"></span>
         </button>
 
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <ul class="dropdown-header" aria-labelledby="dropdownMenu1">
             <li><a href="#">Bares</a></li>
             <li><a href="#">Restaurantes</a></li>
             <li><a href="#">Tiendas de Ropa</a></li>
@@ -41,7 +41,7 @@
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Av. de la Americas #1183</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">(044)445-456-9277</span></p>
 
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalZfida" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalZfida" role="button">Ver Más</a></p>
 
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                             <div class="caption">
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Cantera#253</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">(044)445-111-3754</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalPorto" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalPorto" role="button">Ver Más</a></p>
 
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="caption">
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Lago Zurich #131</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">(044)445-456-9277</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalTaqueria" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalTaqueria" role="button">Ver Más</a></p>
 
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                             <div class="caption">
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Av. Morelos #34</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">(044)4451098733</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalPollo" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalPollo" role="button">Ver Más</a></p>
                             </div>
                         </div>
                     </div>
@@ -85,9 +85,9 @@
                         <div class="thumbnail todoelTumbnail">
                             <p><a><asset:image  src="studios.jpeg" style="width: 60%"/></a></p>
                             <div class="caption">
-                                <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Hidalso #35</span></p>
+                                <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Hidalgo #35</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">45-762-42</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalStudios" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalStudios" role="button">Ver Más</a></p>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                             <div class="caption">
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Liverpool #432</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">45-899-21</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalStudios" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalIngrid" role="button">Ver Más</a></p>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <div class="caption">
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Mina #835</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">45-754-66</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalStudios" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalEs" role="button">Ver Más</a></p>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                             <div class="caption">
                                 <p class="negritasInfoThumnails" align="center">Dirección: <span class="text-muted infoThumnail">Pipila #2153</span></p>
                                 <p class="negritasInfoThumnails" align="center">Teléfono: <span class="text-muted infoThumnail">(044) 445-112-5485</span></p>
-                                <p align="center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modalMrt" role="button">Ver Más</a></p>
+                                <p align="center"><a href="#" class="btn btn-danger" data-toggle="modal" data-target="#login-modalMrt" role="button">Ver Más</a></p>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                                 </button>
                             </div>
                                 <div class="img-responsive">
-                                    <asset:image style="width: 50%;height: 50%" src="modalZfida.jpg"/>
+                                    <asset:image style="width: 584px;height: 150px" resposive="true" src="modalZfida.jpg"/>
                                 </div>
 
                             <h1 style="font: xx-large 'Segoe UI Black">ZFIDA</h1><br>
@@ -258,7 +258,7 @@
                             <p class="negritasInfoThumnails">Dirección: <span class="text-muted infoThumnail">Av. Morelos #34</span></p>
                             <p class="negritasInfoThumnails">Teléfono: <span class="text-muted infoThumnail">(044)4451098733</span></p>
                             <p class="negritasInfoThumnails">Horario de Atención: <span class="text-muted infoThumnail">9:00a.m. - 6p.m.</span></p>
-                            <p class="negritasInfoThumnails">Descripción: <span class="text-muted infoThumnail">Pollos rostizados estilo sinaloa. Contampos con servicio a domicilio.</span></p>
+                            <p class="negritasInfoThumnails">Descripción: <span class="text-muted infoThumnail">Los tacos mas sabrosos de la región. Contamos con servicio para todos tus eventos. </span></p>
                         </form>
                         <hr class="featurette-divider" width="100%" style="padding: 3%; margin: 0; border: none">
                         <div>
@@ -312,8 +312,8 @@
                 <form >
                     <p class="negritasInfoThumnails">Dirección: <span class="text-muted infoThumnail">Lago Zurich #131</span></p>
                     <p class="negritasInfoThumnails">Teléfono: <span class="text-muted infoThumnail">(044)445-456-9277</span></p>
-                    <p class="negritasInfoThumnails">Horario de Atención: <span class="text-muted infoThumnail">1:00p.m. - 12:00a.m.</span></p>
-                    <p class="negritasInfoThumnails">Descripción: <span class="text-muted infoThumnail">Los tacos mas sabrosos de la región. Contamos con servicio para todos tus eventos. </span></p>
+                    <p class="negritasInfoThumnails">Horario de Atención: <span class="text-muted infoThumnail">Lun a Dom de 10:00a.m. - 7:00p.m.</span></p>
+                    <p class="negritasInfoThumnails">Descripción: <span class="text-muted infoThumnail">Pollos rostizados estilo sinaloa. Contampos con servicio a domicilio.</span></p>
                 </form>
                 <hr class="featurette-divider" width="100%" style="padding: 3%; margin: 0; border: none">
                 <div>
@@ -365,9 +365,9 @@
 
                 <h1 style="font: xx-large 'Segoe UI Black">Studios 8</h1><br>
                 <form >
-                    <p class="negritasInfoThumnails">Dirección: <span class="text-muted infoThumnail">Hidalso #35</span></p>
+                    <p class="negritasInfoThumnails">Dirección: <span class="text-muted infoThumnail">Hidalgo #35</span></p>
                     <p class="negritasInfoThumnails">Teléfono: <span class="text-muted infoThumnail">45-762-42</span></p>
-                    <p class="negritasInfoThumnails">Horario de Atención: <span class="text-muted infoThumnail">10:00a.m. - 7:00p.m.</span></p>
+                    <p class="negritasInfoThumnails">Horario de Atención: <span class="text-muted infoThumnail">Lun a Sab de 10:00a.m. - 7:00p.m.</span></p>
                     <p class="negritasInfoThumnails">Descripción: <span class="text-muted infoThumnail">Diseños para publicidad. Cotizaciones sin costo. Contactános.</span></p>
                 </form>
                 <hr class="featurette-divider" width="100%" style="padding: 3%; margin: 0; border: none">
@@ -386,7 +386,7 @@
                 <div>
                     <div class="navbar-left">
                         <p class="negritasInfoThumnails"><asset:image src="facebook.ico" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  /Studios8</span></p>
-                        <p class="negritasInfoThumnails"><asset:image src="instagram.png" style="height: 5%; width: 7%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  @_Studios8Mx</span></p>
+                        <p class="negritasInfoThumnails"><asset:image src="instagram.png" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  @_Studios8Mx</span></p>
                         <p class="negritasInfoThumnails"><asset:image src="e.mail.png" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales" >  http://www.studios8.com</span></p>
                     </div>
                     <div class="login-help navbar-right" style="margin-right: 5%">
@@ -494,7 +494,7 @@
                 <hr class="featurette-divider" width="100%" style="padding: 2%; margin: 0; border: none">
 
                 <div>
-                    <div class="navbar-left">
+                    <div class="nav-justified">
                         <p class="negritasInfoThumnails"><asset:image src="facebook.ico" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  /ArqES</span></p>
                         <p class="negritasInfoThumnails"><asset:image src="instagram.png" style="height: 5%; width: 7%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  @_ES-Arquitectura</span></p>
                         <p class="negritasInfoThumnails"><asset:image src="e.mail.png" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales" >  http://www.es.com</span></p>
@@ -516,16 +516,17 @@
             </div>
         </div>
 
-        //Modal MRT
+        <!-- Modal MRT -->
         <div class="modal fade" id="login-modalMrt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="loginmodal-container">
                 <div class = "modal-header" style="padding: 0">
-                    <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true" style="min-width: 5%; margin-right: 1%; padding: 0">
+                    <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true" style="min-width: 5%; margin-right: 1%; padding: 0;background-color: #ac2925; color: whitesmoke">
                         ×
                     </button>
+                    <br/>
                 </div>
                 <div class="img-responsive">
-                    <asset:image style="width: 50%;height: 50%" src="mrt.jpeg"/>
+                    <asset:image style="width: 584px;height: 150px" src="mrt.jpeg" responsive="true"/>
                 </div>
 
                 <h1 style="font: xx-large 'Segoe UI Black">MRT</h1><br>
@@ -549,12 +550,11 @@
                 <hr class="featurette-divider" width="100%" style="padding: 2%; margin: 0; border: none">
 
                 <div>
-                    <div class="navbar-left">
-                        <p class="negritasInfoThumnails"><asset:image src="facebook.ico" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  /MRT-Mx</span></p>
-                        <p class="negritasInfoThumnails"><asset:image src="instagram.png" style="height: 5%; width: 7%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  @_MrtClothes</span></p>
-                        <p class="negritasInfoThumnails"><asset:image src="e.mail.png" style="height: 5%; width: 5%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales" >  http://www.mrt.com</span></p>
+                    <div class="form-group">
+                        <p class="negritasInfoThumnails" align="center"><asset:image src="facebook.ico" style="min-height: 7%; ,min-width: 7%; height: 7%; width: 7%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  /MRT-Mx    </span><asset:image src="instagram.png" style="min-height: 8%; min-width: 8%; height: 7%; width: 7%; background-color: transparent;"/><span class="text-muted infoThumnail redesSociales">  @_MrtClothes    </span><asset:image src="e.mail.png" style="min-height: 7%; min-width: 7%; height: 7%; width: 7%;  background-color: transparent;"/><span class="text-muted infoThumnail redesSociales" >  http://www.mrt.com    </span></p>
+
                     </div>
-                    <div class="login-help navbar-right" style="margin-right: 5%">
+                    <div class="login-help" align="center">
                         <div class="rating">
                             <div class="stars">
                                 <span class="glyphicon glyphicon-star"></span>
@@ -563,10 +563,10 @@
                                 <span class="glyphicon glyphicon-star"></span>
                                 <span class="glyphicon glyphicon-star"></span>
                             </div>
-
                             <span class="review-no"><p style="font: large 'Segoe UI'">589 votos</p></span><button class="like btn btn-default" type="button"><span class="glyphicon glyphicon-heart lg"><p style="font: large 'Segoe UI'">VOTAR</p></span></button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
